@@ -1,5 +1,7 @@
-export default {
+module.exports = {
   plugins: {
-    "@tailwindcss/postcss": {},
+    tailwindcss: {},
+    autoprefixer: {},
+    'postcss-custom-properties': {} // این plugin برای پشتیبانی از @property
   },
 };
