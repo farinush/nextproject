@@ -1,0 +1,836 @@
+{
+  "header": {
+    "image": "/images/header/machin.jpg",
+    "login": "ورود / ثبت نام",
+    "rent": "/svg/header/rent.svg",
+    "tamas": "تماس با ما",
+    "about": "درباره ی ما",
+    "blog": "بلاگ",
+    "service": "خدمات ما",
+    "rentmachine": "رزرو خودرو"
+  },
+  "header2": {
+    "accordion2": [
+      { "id": 1, "name": "اجاره بنز" },
+      { "id": 2, "name": "اجاره بی ام و" },
+      { "id": 3, "name": "اجاره پژو" },
+      { "id": 4, "name": "اجاره پورشه" },
+      { "id": 5, "name": "اجاره کیا" },
+      { "id": 6, "name": "اجاره هیوندای" }
+    ],
+    "accordion3": [
+      { "id": 1, "name": "اجاره خودرو با راننده" },
+      { "id": 2, "name": "اجاره خودرو بدون راننده" },
+      { "id": 3, "name": "اجاره خودرو ایرانی" },
+      { "id": 4, "name": "اجاره خودرو لوکس" },
+      { "id": 5, "name": "اجاره خودرو تشریفات" },
+      { "id": 6, "name": "اجاره ماشین عروس" }
+    ]
+  },
+  "totalproduct": [
+    {
+      "id": 1,
+      "category": [
+        {
+          "id": 1,
+          "image": "/images/header/totalproduct/image1.jpg",
+          "title": " بنز s500",
+          "model": "مدل : 2016 ",
+          "daily": "از 1 تا 30 روز:",
+          "price": "8,500,000",
+          "garanty": "مبلغ ضمانت",
+          "garantyprice": "80میلیون تومان",
+          "button": "درخواست رزرو"
+        },
+        {
+          "id": 2,
+          "image": "/images/header/totalproduct/image2.jpg",
+          "title": " بنز sl کروک",
+          "model": "مدل : 2016",
+          "daily": "از 1 تا 30 روز:",
+          "price": "8,500,000",
+          "garanty": "مبلغ ضمانت",
+          "garantyprice": "80میلیون تومان",
+          "button": "درخواست رزرو"
+        },
+        {
+          "id": 3,
+          "image": "/images/header/totalproduct/image3.jpg",
+          "title": " بنز E350 سدان",
+          "model": "مدل : 2016",
+          "daily": "از 1 تا 30 روز:",
+          "price": "8,500,000",
+          "garanty": "مبلغ ضمانت",
+          "garantyprice": "80میلیون تومان",
+          "button": "درخواست رزرو"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "category": [
+        {
+          "id": 4,
+          "image": "/images/header/totalproduct/image4.jpg",
+          "title": " خودرو بنز E250",
+          "model": "مدل : 2016 ",
+          "daily": "از 1 تا 30 روز:",
+          "price": "8,500,000",
+          "garanty": "مبلغ ضمانت",
+          "garantyprice": "80میلیون تومان",
+          "button": "درخواست رزرو"
+        },
+        {
+          "id": 5,
+          "image": "/images/header/totalproduct/image5.jpg",
+          "title": " بنز E350 کروک2013",
+          "model": "مدل : 2016",
+          "daily": "از 1 تا 30 روز:",
+          "price": "8,500,000",
+          "garanty": "مبلغ ضمانت",
+          "garantyprice": "80میلیون تومان",
+          "button": "درخواست رزرو"
+        },
+        {
+          "id": 6,
+          "image": "/images/header/totalproduct/image6.jpg",
+          "title": " بنز CLS",
+          "model": "مدل : 2016",
+          "daily": "از 1 تا 30 روز:",
+          "price": "8,500,000",
+          "garanty": "مبلغ ضمانت",
+          "garantyprice": "80میلیون تومان",
+          "button": "درخواست رزرو"
+        }
+      ]
+    }
+  ],
+  "footerh": {
+    "box1": [
+      {
+        "id": 1,
+        "image": "/svg/footerh/contact.svg",
+        "title": "ارتباط با ما",
+        "inform": "0912-21326545"
+      },
+      {
+        "id": 2,
+        "image": "/svg/footerh/email.svg",
+        "title": "ایمیل",
+        "inform": "autorent@info.com"
+      },
+      {
+        "id": 3,
+        "image": "/svg/footerh/address.svg",
+        "title": "آدرس",
+        "inform": "تهران-خ شادمان"
+      }
+    ],
+    "autorent": "svg/footerh/autorent.svg",
+    "text": "اتورنت با رویکرد اعتماد به مشتری,با دراختیار داشتن بزرگ ترین ناوگان خودرویی متشکل از انواع خودرو های صفر کیلومتر ,اقتصادی تا تجاری در سراسر کشور ایران آماده خدمت رسانی به مشتریان است.",
+    "colum": [
+      { "id": 1, "title": "دسترسی آسان" },
+      { "id": 2, "title": "سوالات متداول" },
+      { "id": 3, "title": "تماس با ما" },
+      { "id": 4, "title": "درباره ما" }
+    ],
+    "khabarname": "خبرنامه"
+  },
+  "cars": {
+    "original": [
+      {
+        "id": 1,
+        "image": "/images/header/totalproduct/image1.jpg",
+        "title": " بنز s500",
+        "model": "مدل : 2016 ",
+        "daily": "از 1 تا 30 روز:",
+        "price": "8,500,000",
+        "garanty": "مبلغ ضمانت",
+        "garantyprice": "80میلیون تومان",
+        "button": "درخواست رزرو",
+        "sarneshin": "4نفر",
+        "totalimages": [
+          { "id": 1, "image": "/images/header/totalproduct/image1.jpg" },
+          { "id": 2, "image": "/images/Carimages/benzs500/image1.png" },
+          { "id": 3, "image": "/images/Carimages/benzs500/image2.png" },
+          { "id": 4, "image": "/images/Carimages/benzs500/image3.png" },
+          { "id": 5, "image": "/images/Carimages/benzs500/image4.png" },
+          { "id": 6, "image": "/images/Carimages/benzs500/image5.png" }
+        ],
+        "character": [
+          {
+            "id": 1,
+            "title": "مسافت پیموده",
+            "svg": "/svg/Cars/distance.svg",
+            "subtitle": "12کیلومتر"
+          },
+          {
+            "id": 2,
+            "title": "نوع دنده",
+            "svg": "/svg/Cars/gear.svg",
+            "subtitle": "اتوماتیک"
+          },
+          {
+            "id": 3,
+            "title": "سوخت",
+            "svg": "/svg/Cars/gas.svg",
+            "subtitle": "بنزین"
+          },
+          {
+            "id": 4,
+            "title": "ظرفیت",
+            "svg": "/svg/Cars/total.svg",
+            "subtitle": "4نفر"
+          },
+          {
+            "id": 5,
+            "title": "فرمان",
+            "svg": "/svg/Cars/farmon.svg",
+            "subtitle": "هیدرولیک"
+          },
+          {
+            "id": 6,
+            "title": "مدل",
+            "svg": "/svg/Cars/model.svg",
+            "subtitle": "2014"
+          }
+        ],
+        "feature": [
+          {
+            "id": 1,
+            "title": "گرمکن صندلی",
+            "svg": "/svg/Cars/feature.svg"
+          },
+          {
+            "id": 2,
+            "title": "سیستم PRE-SafeBrake",
+            "svg": "/svg/Cars/feature.svg"
+          },
+          {
+            "id": 3,
+            "title": "گیربکس 7 سرعته اتوماتیک",
+            "svg": "/svg/Cars/feature.svg"
+          },
+          {
+            "id": 4,
+            "title": "گرمکن و تهویه مطبوع صندلی",
+            "svg": "/svg/Cars/feature.svg"
+          },
+          {
+            "id": 5,
+            "title": "استارت بدون کلید",
+            "svg": "/svg/Cars/feature.svg"
+          },
+          {
+            "id": 6,
+            "title": "تعلیق تمام الکترونیکی",
+            "svg": "/svg/Cars/feature.svg"
+          }
+        ],
+        "about":"مرسدس بنز S500 در صدر کلاس لوکس سدان‌های دنیا قرار دارد و نمادی از قدرت، شکوه و فناوری مدرن آلمانی است. این خودرو با طراحی بی‌نقص و خطوط بدنه‌ی چشم‌نواز خود، به‌محض ورود نگاه‌ها را به خود خیره می‌کند. پیشرانه‌ی قدرتمند V8، سیستم تعلیق هوشمند و کابینی فوق‌العاده بی‌صدا، تجربه‌ای از رانندگی را رقم می‌زند که به معنای واقعی کلمه مجلل است. فضای داخلی S500 با چرم طبیعی، نورپردازی چندرنگ و نمایشگرهای دیجیتال پیشرفته، راحتی مطلق را برای راننده و سرنشینان به ارمغان می‌آورد. این خودرو بهترین گزینه برای تشریفات، جلسات کاری و سفرهای لوکس درون‌شهری است. مرسدس S500 انتخاب کسانی است که به دنبال کمال در رانندگی هستند."
+      },
+      {
+        "id": 2,
+        "image": "/images/header/totalproduct/image2.jpg",
+        "title": " بنز sl کروک",
+        "model": "مدل : 2016",
+        "daily": "از 1 تا 30 روز:",
+        "price": "8,500,000",
+        "garanty": "مبلغ ضمانت",
+        "garantyprice": "80میلیون تومان",
+        "button": "درخواست رزرو",
+        "sarneshin": "2نفر",
+        "totalimages": [
+          { "id": 1, "image": "/images/header/totalproduct/image2.jpg" },
+          { "id": 2, "image": "/images/Carimages/benzslcroc/image1.png" },
+          { "id": 3, "image": "/images/Carimages/benzslcroc/image2.png" },
+          { "id": 4, "image": "/images/Carimages/benzslcroc/image3.png" },
+          { "id": 5, "image": "/images/Carimages/benzslcroc/image4.png" },
+          { "id": 6, "image": "/images/Carimages/benzslcroc/image5.png" }
+        ],
+        "character": [
+          {
+            "id": 1,
+            "title": "مسافت پیموده",
+            "svg": "/svg/Cars/distance.svg",
+            "subtitle": "80کیلومتر"
+          },
+          {
+            "id": 2,
+            "title": "نوع دنده",
+            "svg": "/svg/Cars/gear.svg",
+            "subtitle": "اتوماتیک"
+          },
+          {
+            "id": 3,
+            "title": "سوخت",
+            "svg": "/svg/Cars/gas.svg",
+            "subtitle": "بنزین"
+          },
+          {
+            "id": 4,
+            "title": "ظرفیت",
+            "svg": "/svg/Cars/total.svg",
+            "subtitle": "2نفر"
+          },
+          {
+            "id": 5,
+            "title": "فرمان",
+            "svg": "/svg/Cars/farmon.svg",
+            "subtitle": "هیدرولیک"
+          },
+          {
+            "id": 6,
+            "title": "مدل",
+            "svg": "/svg/Cars/model.svg",
+            "subtitle": "2016"
+          }
+        ],
+        "feature": [
+          {
+            "id": 1,
+            "title": "گرمکن صندلی",
+            "svg": "/svg/Cars/feature.svg"
+          },
+          {
+            "id": 2,
+            "title": "سیستم PRE-SafeBrake",
+            "svg": "/svg/Cars/feature.svg"
+          },
+          {
+            "id": 3,
+            "title": "گیربکس 7 سرعته اتوماتیک",
+            "svg": "/svg/Cars/feature.svg"
+          },
+          {
+            "id": 4,
+            "title": "گرمکن و تهویه مطبوع صندلی",
+            "svg": "/svg/Cars/feature.svg"
+          },
+          {
+            "id": 5,
+            "title": "استارت بدون کلید",
+            "svg": "/svg/Cars/feature.svg"
+          },
+          {
+            "id": 6,
+            "title": "تعلیق تمام الکترونیکی",
+            "svg": "/svg/Cars/feature.svg"
+          }
+        ],
+        "about":"مرسدس بنز SL کروک یکی از نمادهای جاودانه‌ی دنیای خودرو است؛ ترکیبی از طراحی کلاسیک، فناوری مدرن و عملکرد اسپرت. سقف فلزی جمع‌شونده، پیشرانه قدرتمند و سیستم انتقال قدرت دقیق، این خودرو را به یک گرند تورر واقعی تبدیل کرده است .در داخل کابین، چرم مرغوب، نمایشگر دیجیتال و امکانات رفاهی کامل، فضایی لوکس و در عین حال اسپرت را ایجاد می‌کند. مرسدس SL برای رانندگانی ساخته شده که عاشق سرعت، ظرافت و حس آزادی در جاده هستند. چه در شهر و چه در مسیرهای ساحلی، رانندگی با SL تجربه‌ای فراموش‌نشدنی خواهد بود."
+      },
+      {
+        "id": 3,
+        "image": "/images/header/totalproduct/image3.jpg",
+        "title": " بنز E350 سدان",
+        "model": "مدل : 2016",
+        "daily": "از 1 تا 30 روز:",
+        "price": "8,500,000",
+        "garanty": "مبلغ ضمانت",
+        "garantyprice": "80میلیون تومان",
+        "button": "درخواست رزرو",
+        "sarneshin": "4نفر",
+        "totalimages": [
+          { "id": 1, "image": "/images/header/totalproduct/image3.jpg" },
+          { "id": 2, "image": "/images/Carimages/benzE350sedan/image1.png" },
+          { "id": 3, "image": "/images/Carimages/benzE350sedan/image2.png" },
+          { "id": 4, "image": "/images/Carimages/benzE350sedan/image3.png" },
+          { "id": 5, "image": "/images/Carimages/benzE350sedan/image4.png" },
+          { "id": 6, "image": "/images/Carimages/benzE350sedan/image5.png" }
+        ],
+        "character": [
+          {
+            "id": 1,
+            "title": "مسافت پیموده",
+            "svg": "/svg/Cars/distance.svg",
+            "subtitle": "5کیلومتر"
+          },
+          {
+            "id": 2,
+            "title": "نوع دنده",
+            "svg": "/svg/Cars/gear.svg",
+            "subtitle": "اتوماتیک"
+          },
+          {
+            "id": 3,
+            "title": "سوخت",
+            "svg": "/svg/Cars/gas.svg",
+            "subtitle": "بنزین"
+          },
+          {
+            "id": 4,
+            "title": "ظرفیت",
+            "svg": "/svg/Cars/total.svg",
+            "subtitle": "4نفر"
+          },
+          {
+            "id": 5,
+            "title": "فرمان",
+            "svg": "/svg/Cars/farmon.svg",
+            "subtitle": "هیدرولیک"
+          },
+          {
+            "id": 6,
+            "title": "مدل",
+            "svg": "/svg/Cars/model.svg",
+            "subtitle": "2020"
+          }
+        ],
+        "feature": [
+          {
+            "id": 1,
+            "title": "گرمکن صندلی",
+            "svg": "/svg/Cars/feature.svg"
+          },
+          {
+            "id": 2,
+            "title": "سیستم PRE-SafeBrake",
+            "svg": "/svg/Cars/feature.svg"
+          },
+          {
+            "id": 3,
+            "title": "گیربکس 7 سرعته اتوماتیک",
+            "svg": "/svg/Cars/feature.svg"
+          },
+          {
+            "id": 4,
+            "title": "گرمکن و تهویه مطبوع صندلی",
+            "svg": "/svg/Cars/feature.svg"
+          },
+          {
+            "id": 5,
+            "title": "استارت بدون کلید",
+            "svg": "/svg/Cars/feature.svg"
+          },
+          {
+            "id": 6,
+            "title": "تعلیق تمام الکترونیکی",
+            "svg": "/svg/Cars/feature.svg"
+          }
+        ],
+        "about":"مرسدس بنز E350 سدان، ترکیبی کامل از عملکرد فنی قدرتمند، ظرافت طراحی و کیفیت ساخت بی‌نظیر است. این خودرو با موتور قدرتمند و سیستم انتقال قدرت دقیق خود، رانندگی‌ای نرم، مطمئن و آرام را در هر شرایطی تضمین می‌کند. کابین E350 با طراحی مینیمال و لوکس، از جدیدترین فناوری‌های ایمنی و رفاهی بنز بهره می‌برد؛ از جمله صندلی‌های ارگونومیک با تنظیم برقی، سیستم تهویه چندمنطقه‌ای و سیستم صوتی پیشرفته. این سدان لوکس انتخابی ایده‌آل برای سفرهای کاری، خانوادگی و حتی تشریفاتی است. تجربه رانندگی با E350 تجربه‌ای از ظرافت و قدرت هم‌زمان است."
+      },
+      {
+        "id": 4,
+        "image": "/images/header/totalproduct/image4.jpg",
+        "title": " خودرو بنز E250",
+        "model": "مدل : 2016 ",
+        "daily": "از 1 تا 30 روز:",
+        "price": "8,500,000",
+        "garanty": "مبلغ ضمانت",
+        "garantyprice": "80میلیون تومان",
+        "button": "درخواست رزرو",
+        "sarneshin": "4نفر",
+        "totalimages": [
+          { "id": 1, "image": "/images/header/totalproduct/image4.jpg" },
+          { "id": 2, "image": "/images/Carimages/benzE250/image1.png" },
+          { "id": 3, "image": "/images/Carimages/benzE250/image2.png" },
+          { "id": 4, "image": "/images/Carimages/benzE250/image3.png" },
+          { "id": 5, "image": "/images/Carimages/benzE250/image4.png" },
+          { "id": 6, "image": "/images/Carimages/benzE250/image5.png" }
+        ],
+        "character": [
+          {
+            "id": 1,
+            "title": "مسافت پیموده",
+            "svg": "/svg/Cars/distance.svg",
+            "subtitle": "400کیلومتر"
+          },
+          {
+            "id": 2,
+            "title": "نوع دنده",
+            "svg": "/svg/Cars/gear.svg",
+            "subtitle": "اتوماتیک"
+          },
+          {
+            "id": 3,
+            "title": "سوخت",
+            "svg": "/svg/Cars/gas.svg",
+            "subtitle": "بنزین"
+          },
+          {
+            "id": 4,
+            "title": "ظرفیت",
+            "svg": "/svg/Cars/total.svg",
+            "subtitle": "4نفر"
+          },
+          {
+            "id": 5,
+            "title": "فرمان",
+            "svg": "/svg/Cars/farmon.svg",
+            "subtitle": "هیدرولیک"
+          },
+          {
+            "id": 6,
+            "title": "مدل",
+            "svg": "/svg/Cars/model.svg",
+            "subtitle": "2018"
+          }
+        ],
+        "feature": [
+          {
+            "id": 1,
+            "title": "گرمکن صندلی",
+            "svg": "/svg/Cars/feature.svg"
+          },
+          {
+            "id": 2,
+            "title": "سیستم PRE-SafeBrake",
+            "svg": "/svg/Cars/feature.svg"
+          },
+          {
+            "id": 3,
+            "title": "گیربکس 7 سرعته اتوماتیک",
+            "svg": "/svg/Cars/feature.svg"
+          },
+          {
+            "id": 4,
+            "title": "گرمکن و تهویه مطبوع صندلی",
+            "svg": "/svg/Cars/feature.svg"
+          },
+          {
+            "id": 5,
+            "title": "استارت بدون کلید",
+            "svg": "/svg/Cars/feature.svg"
+          },
+          {
+            "id": 6,
+            "title": "تعلیق تمام الکترونیکی",
+            "svg": "/svg/Cars/feature.svg"
+          }
+        ],
+        "about":"مرسدس بنز E250 ترکیبی ایده‌آل از ظرافت، راحتی و عملکرد فنی است. این سدان لوکس با طراحی شیک و خطوط کلاسیک مرسدس، نگاه‌ها را به خود جلب می‌کند و نمایانگر اصالت و کیفیت برند آلمانی است. پیشرانه‌ی قدرتمند و سیستم تعلیق پیشرفته، رانندگی‌ای نرم، مطمئن و لذت‌بخش را فراهم می‌کند، چه در مسیرهای شهری و چه در جاده‌های طولانی. فضای داخلی E250 با صندلی‌های ارگونومیک، تزئینات چرم مرغوب و امکانات رفاهی کامل، تجربه‌ای لوکس و دلپذیر برای سرنشینان ایجاد می‌کند. سیستم‌های ایمنی پیشرفته و فناوری‌های دیجیتال بنز، امنیت و راحتی شما را در تمام مسیرها تضمین می‌کنند. E250انتخابی ایده‌آل برای سفرهای کاری، خانوادگی و حتی تجربه رانندگی روزمره با سطحی از رفاه و آرامش بی‌نظیر است."
+      },
+      {
+        "id": 5,
+        "image": "/images/header/totalproduct/image5.jpg",
+        "title": " بنز E350 کروک2013",
+        "model": "مدل : 2016",
+        "daily": "از 1 تا 30 روز:",
+        "price": "8,500,000",
+        "garanty": "مبلغ ضمانت",
+        "garantyprice": "80میلیون تومان",
+        "button": "درخواست رزرو",
+        "sarneshin": "2نفر",
+        "totalimages": [
+          { "id": 1, "image": "/images/header/totalproduct/image5.jpg" },
+          { "id": 2, "image": "/images/Carimages/benzE3502013/image1.png" },
+          { "id": 3, "image": "/images/Carimages/benzE3502013/image2.png" },
+          { "id": 4, "image": "/images/Carimages/benzE3502013/image3.png" },
+          { "id": 5, "image": "/images/Carimages/benzE3502013/image4.png" },
+          { "id": 6, "image": "/images/Carimages/benzE3502013/image5.png" }
+        ],
+        "character": [
+          {
+            "id": 1,
+            "title": "مسافت پیموده",
+            "svg": "/svg/Cars/distance.svg",
+            "subtitle": "100کیلومتر"
+          },
+          {
+            "id": 2,
+            "title": "نوع دنده",
+            "svg": "/svg/Cars/gear.svg",
+            "subtitle": "اتوماتیک"
+          },
+          {
+            "id": 3,
+            "title": "سوخت",
+            "svg": "/svg/Cars/gas.svg",
+            "subtitle": "بنزین"
+          },
+          {
+            "id": 4,
+            "title": "ظرفیت",
+            "svg": "/svg/Cars/total.svg",
+            "subtitle": "4نفر"
+          },
+          {
+            "id": 5,
+            "title": "فرمان",
+            "svg": "/svg/Cars/farmon.svg",
+            "subtitle": "هیدرولیک"
+          },
+          {
+            "id": 6,
+            "title": "مدل",
+            "svg": "/svg/Cars/model.svg",
+            "subtitle": "2019"
+          }
+        ],
+        "feature": [
+          {
+            "id": 1,
+            "title": "گرمکن صندلی",
+            "svg": "/svg/Cars/feature.svg"
+          },
+          {
+            "id": 2,
+            "title": "سیستم PRE-SafeBrake",
+            "svg": "/svg/Cars/feature.svg"
+          },
+          {
+            "id": 3,
+            "title": "گیربکس 7 سرعته اتوماتیک",
+            "svg": "/svg/Cars/feature.svg"
+          },
+          {
+            "id": 4,
+            "title": "گرمکن و تهویه مطبوع صندلی",
+            "svg": "/svg/Cars/feature.svg"
+          },
+          {
+            "id": 5,
+            "title": "استارت بدون کلید",
+            "svg": "/svg/Cars/feature.svg"
+          },
+          {
+            "id": 6,
+            "title": "تعلیق تمام الکترونیکی",
+            "svg": "/svg/Cars/feature.svg"
+          }
+        ],
+        "about":"مرسدس بنز E350 کروک 2013 خودرویی است که مفهوم لذت رانندگی را از نو تعریف می‌کند. سقف جمع‌شونده برقی، طراحی اسپرت و تناسب کامل میان قدرت و زیبایی، این خودرو را به یکی از محبوب‌ترین مدل‌های کروک مرسدس تبدیل کرده است .در زیر کاپوت، پیشرانه‌ای قدرتمند نهفته است که در کنار سیستم تعلیق دقیق و فرمان‌پذیری عالی، حس رانندگی پویا و هیجان‌انگیزی را منتقل می‌کند. فضای داخلی آن با چرم باکیفیت، جزئیات فلزی براق و امکانات رفاهی کامل تزئین شده تا هر لحظه از رانندگی در آن، به تجربه‌ای خاص و به‌یادماندنی تبدیل شودE350. کروک گزینه‌ای ایده‌آل برای افرادی است که به دنبال آزادی، سبک و لذت رانندگی در هوای آزاد هستند."
+      },
+      {
+        "id": 6,
+        "image": "/images/header/totalproduct/image6.jpg",
+        "title": " بنز CLS",
+        "model": "مدل : 2016",
+        "daily": "از 1 تا 30 روز:",
+        "price": "8,500,000",
+        "garanty": "مبلغ ضمانت",
+        "garantyprice": "80میلیون تومان",
+        "button": "درخواست رزرو",
+        "sarneshin": "4نفر",
+        "totalimages": [
+          { "id": 1, "image": "/images/header/totalproduct/image6.jpg" },
+          { "id": 2, "image": "/images/Carimages/benzcls/image1.png" },
+          { "id": 3, "image": "/images/Carimages/benzcls/image2.png" },
+          { "id": 4, "image": "/images/Carimages/benzcls/image3.png" },
+          { "id": 5, "image": "/images/Carimages/benzcls/image4.png" },
+          { "id": 6, "image": "/images/Carimages/benzcls/image5.png" }
+        ],
+        "character": [
+          {
+            "id": 1,
+            "title": "مسافت پیموده",
+            "svg": "/svg/Cars/distance.svg",
+            "subtitle": "60کیلومتر"
+          },
+          {
+            "id": 2,
+            "title": "نوع دنده",
+            "svg": "/svg/Cars/gear.svg",
+            "subtitle": "اتوماتیک"
+          },
+          {
+            "id": 3,
+            "title": "سوخت",
+            "svg": "/svg/Cars/gas.svg",
+            "subtitle": "بنزین"
+          },
+          {
+            "id": 4,
+            "title": "ظرفیت",
+            "svg": "/svg/Cars/total.svg",
+            "subtitle": "4نفر"
+          },
+          {
+            "id": 5,
+            "title": "فرمان",
+            "svg": "/svg/Cars/farmon.svg",
+            "subtitle": "هیدرولیک"
+          },
+          {
+            "id": 6,
+            "title": "مدل",
+            "svg": "/svg/Cars/model.svg",
+            "subtitle": "2022"
+          }
+        ],
+        "feature": [
+          {
+            "id": 1,
+            "title": "گرمکن صندلی",
+            "svg": "/svg/Cars/feature.svg"
+          },
+          {
+            "id": 2,
+            "title": "سیستم PRE-SafeBrake",
+            "svg": "/svg/Cars/feature.svg"
+          },
+          {
+            "id": 3,
+            "title": "گیربکس 7 سرعته اتوماتیک",
+            "svg": "/svg/Cars/feature.svg"
+          },
+          {
+            "id": 4,
+            "title": "گرمکن و تهویه مطبوع صندلی",
+            "svg": "/svg/Cars/feature.svg"
+          },
+          {
+            "id": 5,
+            "title": "استارت بدون کلید",
+            "svg": "/svg/Cars/feature.svg"
+          },
+          {
+            "id": 6,
+            "title": "تعلیق تمام الکترونیکی",
+            "svg": "/svg/Cars/feature.svg"
+          }
+        ],
+        "about":"مرسدس بنز CLS تلفیقی است از روح اسپرت و اصالت لوکس. طراحی کوپه‌مانند با خطوط روان و جلوپنجره‌ای جسورانه، ظاهری منحصربه‌فرد و چشمگیر به خودرو می‌دهد. در دل این زیبایی، موتوری قدرتمند و سیستم‌های پیشرفته‌ی کنترلی قرار دارد که رانندگی با CLS را به تجربه‌ای هیجان‌انگیز و در عین حال آرام تبدیل می‌کند. فضای داخلی این خودرو ترکیبی از چرم طبیعی، نورپردازی هوشمند و نمایشگرهای دیجیتال است که فضایی مدرن و دل‌نشین خلق می‌کند. مرسدس CLS انتخابی برای افرادی است که به‌دنبال تلفیق بی‌نقصی از طراحی، تکنولوژی و عملکرد هستند — خودرویی لوکس، خاص و جذاب برای رانندگانی با سلیقه‌ای متفاوت."
+      }
+    ],
+    "machintype": [
+      { "id": 1, "type": "اجاره خودرو با راننده" },
+      { "id": 2, "type": "اجاره خودرو بی راننده" },
+      { "id": 3, "type": "اجاره ماشین عروس" }
+    ],
+    "price": [
+      { "id": 1, "text": "12,500,000", "day": "ماهانه" },
+      { "id": 2, "text": "2,500,000", "day": "روزانه" }
+    ],
+    "location": [
+      {
+        "id": 1,
+        "city": "تهران",
+        "province": [
+          { "id": 1, "name": "فرودگاه امام خمینی" },
+          { "id": 2, "name": "فرودگاه مهرآباد" },
+          { "id": 3, "name": "تجریش" },
+          { "id": 4, "name": "برج میلاد" }
+        ]
+      },
+      {
+        "id": 2,
+        "city": "شیراز",
+        "province": [
+          { "id": 1, "name": "فرودگاه شهید دستغیب" },
+          { "id": 2, "name": "بلوار معالی آباد" },
+          { "id": 3, "name": "باغ ارم" }
+        ]
+      },
+      {
+        "id": 3,
+        "city": "مازندران",
+        "province": [
+          { "id": 1, "name": "بابل(مرکز شهر)" },
+          { "id": 2, "name": "فرودگاه رامسر" },
+          { "id": 3, "name": "متل قو(سلمان شهر)" },
+          { "id": 4, "name": "ساری(فرودگاه دشت ناز)" }
+        ]
+      },
+      {
+        "id": 4,
+        "city": "کیش",
+        "province": [
+          { "id": 1, "name": "فرودگاه بین المللی کیش" },
+          { "id": 2, "name": "بلوار ساحل" },
+          { "id": 3, "name": "هتل ترنج" }
+        ]
+      },
+      {
+        "id": 5,
+        "city": "اصفهان",
+        "province": [
+          { "id": 1, "name": "فرودگاه شهید بهشتی" },
+          { "id": 2, "name": "میدان نقش جهان" },
+          { "id": 3, "name": "خیابان چهارباغ بالا" },
+          { "id": 4, "name": "پایانه کاوه" }
+        ]
+      }
+    ],
+    "location2": [
+      {
+        "id": 1,
+        "city": "تهران",
+        "province": [
+          { "id": 1, "name": "ترمینال جنوب" },
+          { "id": 2, "name": "ترمینال غرب" },
+          { "id": 3, "name": "پارک ملت" },
+          { "id": 4, "name": "دفتر مرکزی(خیابان ولیعصر)" },
+          { "id": 5, "name": "فرودگاه امام خمینی" }
+        ]
+      },
+      {
+        "id": 2,
+        "city": "شیراز",
+        "province": [
+          { "id": 1, "name": "پایانه کاراندیش" },
+          { "id": 2, "name": "دفتر مرکزی (بلوار ستارخان)" },
+          { "id": 3, "name": "باغ ارم" },
+          { "id": 4, "name": "دروازه قران" }
+        ]
+      },
+      {
+        "id": 3,
+        "city": "مازندران",
+        "province": [
+          { "id": 1, "name": "تحویل در هتل محل اقامت" },
+          { "id": 2, "name": "رامسر(بلوار معلم)" },
+          { "id": 3, "name": "چالوس(مرکز شهر)" },
+          { "id": 4, "name": "بابل(خیابان شریعتی)" }
+        ]
+      },
+      {
+        "id": 4,
+        "city": "کیش",
+        "province": [
+          { "id": 1, "name": "فرودگاه بین المللی کیش" },
+          { "id": 2, "name": "هتل داریوش" },
+          { "id": 3, "name": "هتل ترنج" },
+          { "id": 4, "name": "اسکله تفریحی" }
+        ]
+      },
+      {
+        "id": 5,
+        "city": "اصفهان",
+        "province": [
+          { "id": 1, "name": "سی و سه پل(نزدیکی هتل عباسی)" },
+          { "id": 2, "name": "میدان نقش جهان" },
+          { "id": 3, "name": "خیابان چهارباغ بالا" },
+          { "id": 4, "name": "دفتر مرکزی(پایانه کاوه)" }
+        ]
+      }
+    ],
+    "favorite":[
+      {
+        "id": 1,
+        "image": "/images/favorite/image1.jpg",
+        "title": "تیوتا لندکروز 2013 در تهران",
+        "model": "مدل : 2015 ",
+        "daily": "از 1 تا 30 روز:",
+        "price": "8,500,000",
+        "garanty": "مبلغ ضمانت",
+        "garantyprice": "80میلیون تومان",
+        "button": "درخواست رزرو"
+      },
+         {
+        "id": 2,
+        "image": "/images/favorite/image2.jpg",
+        "title":"هیوندا توسان 2014",
+        "model": "مدل : 2016 ",
+        "daily": "از 1 تا 30 روز:",
+        "price": "8,500,000",
+        "garanty": "مبلغ ضمانت",
+        "garantyprice": "80میلیون تومان",
+        "button": "درخواست رزرو"
+      },
+           {
+        "id": 3,
+        "image": "/images/favorite/image3.jpg",
+        "title": "جنسیس کوپه",
+        "model": "مدل : 2013 ",
+        "daily": "از 1 تا 30 روز:",
+        "price": "8,500,000",
+        "garanty": "مبلغ ضمانت",
+        "garantyprice": "80میلیون تومان",
+        "button": "درخواست رزرو"
+      }
+    ]
+  }
+}

@@ -6,17 +6,32 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    
+    "server": "npx json-server db.json --port 3004"
   },
   "dependencies": {
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.1",
+    "@mui/material": "^7.3.5",
+    "@mui/x-date-pickers": "^8.17.0",
+    "@reduxjs/toolkit": "^2.9.2",
+    "dayjs": "^1.11.19",
+    "json-server": "^1.0.0-beta.3",
+    "next": "16.0.0",
     "react": "19.2.0",
     "react-dom": "19.2.0",
-    "next": "16.0.0"
+    "react-icons": "^5.5.0",
+    "react-redux": "^9.2.0",
+    "swiper": "^12.0.3"
   },
   "devDependencies": {
-    "@tailwindcss/postcss": "^4",
-    "tailwindcss": "^4",
+    "@tailwindcss/postcss": "^4.1.16",
+    "autoprefixer": "^10.4.21",
+    "daisyui": "^5.4.7",
     "eslint": "^9",
-    "eslint-config-next": "16.0.0"
+    "eslint-config-next": "16.0.0",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^4.1.17"
   }
 }

@@ -1,26 +1,48 @@
 @import "tailwindcss";
+@plugin "daisyui";
 
+@font-face {
+  font-family: "iranyekanmedium";
+  src: url("/fonts/IRANYekanWeb-Medium.woff2") format("woff2"),
+    url("/fonts/IRANYekanWeb-Medium.woff") format("woff"),
+    url("/fonts/IRANYekanWeb-Medium.ttf") format("truetype"),
+    url("/fonts/IRANYekanWeb-Medium.eot") format("embedded-opentype");
+}
+
+@font-face {
+  font-family: 'yekan';
+  src: url('/fonts/YekanBakhFaNum-Regular.woff2') format('woff2'),
+       url('/fonts/YekanBakhFaNum-Regular.woff') format('woff'),
+       url('/fonts/YekanBakhFaNum-Regular.ttf') format('truetype'),
+       url('/fonts/YekanBakhFaNum-Regular.eot') format('embedded-opentype');
+  
+}
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+    --font-family: iranyekanmedium;
+  }
+ 
+  .borderRedText + div {
+  color: red !important;
+}
+.borderRed {
+  border: 1px solid red;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+@keyframes slideUp {
+  0% {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  60% {
+    opacity: 1;
+    transform: translateY(-5px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
   }
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+.animate-slideUp {
+  animation: slideUp 0.6s ease-out;
 }
