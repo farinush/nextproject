@@ -1,15 +1,14 @@
+import { promises as fs } from "fs";
+import path from "path";
+
 export async function GET() {
   try {
-    // در development: از /api/total استفاده کنید
-    // در production (Vercel): db.json باید در root دسترسی‌پذیر باشد
-    const baseUrl = process.env.NEXT_PUBLIC_API_URL || "http://localhost:3000";
-    const response = await fetch(`${baseUrl}/db.json`);
+    // مسیر فایل db.json
+    const dbPath = path.join(process.cwd(), "public", "db.json");
 
-    if (!response.ok) {
-      throw new Error("Failed to fetch db.json");
-    }
-
-    const jsonData = await response.json();
+    // خواندن فایل
+    const data = await fs.readFile(dbPath, "utf8");
+    const jsonData = JSON.parse(data);
 
     return new Response(JSON.stringify(jsonData), {
       status: 200,
@@ -20,7 +19,11 @@ export async function GET() {
   } catch (err) {
     console.error("API Error:", err);
     return new Response(
-      JSON.stringify({ error: "Cannot read data", message: err.message }),
+      JSON.stringify({
+        error: "Cannot read data",
+        message: err.message,
+        path: process.cwd(),
+      }),
       {
         status: 500,
         headers: { "Content-Type": "application/json" },
