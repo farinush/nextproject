@@ -21,7 +21,7 @@ export const setError = (error) => {
 export const fetchHeader = () => {
   return async function (dispatch) {
     try {
-      let data = await fetch("/Api/Total");
+      let data = await fetch("/api/total");
       let res = await data.json();
       dispatch(setError(""));
       dispatch(setLoading(false));
