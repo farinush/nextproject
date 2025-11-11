@@ -1,3 +1,4 @@
+"use client"
 import { fetchCars } from "@/app/Redux/Cars/ActionCars";
 import Link from "next/link";
 import { useEffect } from "react";

@@ -1,3 +1,4 @@
+"use client"
 import { fetchCars } from "@/app/Redux/Cars/ActionCars";
 import { useEffect, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
@@ -12,10 +13,11 @@ import { DatePicker } from "@mui/x-date-pickers/DatePicker";
 import { TimePicker } from "@mui/x-date-pickers";
 import Radio from "@mui/material/Radio";
 import FormControlLabel from "@mui/material/FormControlLabel";
+import Link from "next/link";
 
 const Submittion = ({ carDetails }) => {
   if (!carDetails) {
-    <h1>Loading...!</h1>;
+    return <h1>Loading...!</h1>;
   }
   const { loading, error, cars } = useSelector((state) => state.cars);
   const dispatch = useDispatch();
@@ -70,20 +72,20 @@ const Submittion = ({ carDetails }) => {
       const diffDays = enddate.diff(startdate, "day");
       setDayscount(diffDays > 0 ? diffDays : 0);
 
-      const priceItem = cars.price?.find((item) => item.id === 2);
+      const priceItem = carDetails.prices?.find((item) => item.id === 2);
       const priceperDay = priceItem
         ? Number(priceItem.text.replace(/,/g, ""))
         : 0;
       setTotalprice(diffDays > 0 ? diffDays * priceperDay : 0);
     }
-  }, [value, valueR, cars.price]);
+  }, [value, valueR, carDetails.prices]);
 
   if (loading) return <h1>Loading...</h1>;
   if (error) return <h1>Error: {error}</h1>;
   return (
     <div className="w-[500px] h-[850px] bg-white rounded-[15px] px-3 py-7 absolute top-[455px] left-[300px]">
       <div className="box1 mb-[30px] flex justify-between">
-        {cars.price?.map((item) => {
+        {carDetails.prices?.map((item) => {
           return (
             <div
               key={item.id}
@@ -541,9 +543,9 @@ const Submittion = ({ carDetails }) => {
           {totalprice.toLocaleString()}
         </div>
       </div>
-      <div className="box11 cursor-pointer bg-[#194BF0] w-[94%] relative right-3 top-[290px] rounded-[10px] p-3 text-white text-center font-[iranyekanmedium]">
+      <Link href={`/Clientinfo/${carDetails.id}?q=${encodeURIComponent(carDetails.title)}`}  className="box11 cursor-pointer bg-[#194BF0] w-[94%] relative right-3 top-[290px] block rounded-[10px] p-3 text-white text-center font-[iranyekanmedium]">
         ثبت درخواست
-      </div>
+      </Link>
     </div>
   );
 };

@@ -1,16 +1,14 @@
 "use client";
-import { fetchCars } from "@/app/Redux/Cars/ActionCars";
+
 import { useSearchParams } from "next/navigation";
 import React, { useEffect, useState } from "react";
+import HeaderClient from "./components/HeaderClient";
+import FooterClient from "./components/FooterClient";
 import { useDispatch, useSelector } from "react-redux";
-import HeaderCars from "./components/HeaderCars";
-import FooterCars from "./components/FooterCars";
-import FirstDatacar from "./components/FirstDatacar";
-import Submittion from "./components/Submittion";
-import SecondDatacar from "./components/SecondDatacar";
-import FavoriteCars from "./components/FavoriteCars";
+import { fetchCars } from "@/app/Redux/Cars/ActionCars";
+import BodyClient from "./components/BodyClient";
 
-export default function CarPage({ params }) {
+const ClientPage = ({ params }) => {
   const { id } = React.use(params);
   const searchParams = useSearchParams();
   const q = searchParams.get("q");
@@ -31,15 +29,13 @@ export default function CarPage({ params }) {
 
   if (loading) return <h1>Loading...</h1>;
   if (error) return <h1>Error: {error}</h1>;
-
   return (
-    <div className="bg-[#eeeded] relative w-full h-[455vh]">
-      <HeaderCars />
-      <FirstDatacar q={q} carDetails={carDetails}/>
-      <Submittion carDetails={carDetails}/>
-      <SecondDatacar q={q} carDetails={carDetails}/>
-      <FavoriteCars/>
-      <FooterCars />
+    <div className="bg-[#eeeded] relative w-full h-[210vh]">
+      <HeaderClient />
+      <BodyClient q={q} carDetails={carDetails} />
+      <FooterClient />
     </div>
   );
-}
+};
+
+export default ClientPage;

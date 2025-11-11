@@ -21,7 +21,7 @@ export const setError = (error) => {
 export const fetchTotalproduct = () => {
   return async function (dispatch) {
     try {
-      let data = await fetch(`${process.env.NEXT_PUBLIC_BASE_URL}db.json`);
+      let data = await fetch("/Api/Total");
       let res = await data.json();
       dispatch(setError(""));
       dispatch(setLoading(false));

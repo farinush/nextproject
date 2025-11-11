@@ -1,9 +1,9 @@
-import { SET_CARS, SET_LOADING, SET_ERROR } from "./ActionTypes";
+import { SET_CLIENT, SET_LOADING, SET_ERROR } from "./ActionTypes";
 
-export const setCars = (cars) => {
+export const setClient = (client) => {
   return {
-    type: SET_CARS,
-    payload: cars,
+    type: SET_CLIENT,
+    payload: client,
   };
 };
 export const setLoading = (status) => {
@@ -18,14 +18,14 @@ export const setError = (error) => {
     payload: error,
   };
 };
-export const fetchCars = () => {
+export const fetchClient = () => {
   return async function (dispatch) {
     try {
       let data = await fetch("/Api/Total");
       let res = await data.json();
       dispatch(setError(""));
       dispatch(setLoading(false));
-      dispatch(setCars(res.cars));
+      dispatch(setClient(res.client));
     } catch (error) {
       dispatch(setError(error.message));
       dispatch(setLoading(true));

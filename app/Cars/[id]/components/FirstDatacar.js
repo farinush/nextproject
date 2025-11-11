@@ -1,3 +1,4 @@
+"use client"
 const FirstDatacar = ({q,carDetails}) => {
      if (!carDetails) {
     return <h1>Loading...</h1>; 

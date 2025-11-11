@@ -115,12 +115,23 @@ const HeaderCars = () => {
       }, 3000);
       setShowsubmit(false);
       setloggedIn(true);
+      localStorage.setItem("loggedIn", "true");
+      localStorage.setItem("userPhone", inputb);
     } else {
       document
         .querySelectorAll(".myinputsecond")
         .forEach((el) => el.classList.add("borderRed"));
     }
   }
+  useEffect(() => {
+    const savedLogin = localStorage.getItem("loggedIn");
+    const savedPhone = localStorage.getItem("userPhone");
+
+    if (savedLogin === "true" && savedPhone) {
+      setloggedIn(true);
+      setInputb(savedPhone);
+    }
+  }, []);
 
   if (loading) return <h1>Loading...</h1>;
   if (error) return <h1>Error: {error}</h1>;
@@ -156,7 +167,7 @@ const HeaderCars = () => {
             {header.service}
           </Link>
           <Link
-            href="/Rentmachine"
+            href="/"
             className="text-[15px] hover:text-blue-600 font-[iranyekanmedium]"
           >
             {header.rentmachine}
@@ -304,6 +315,8 @@ const HeaderCars = () => {
                 setCode5(["", "", "", "", ""]);
                 setInputb("");
                 setLogoutmessage(true);
+                localStorage.removeItem("loggedIn");
+                localStorage.removeItem("userPhone");
                 setTimeout(() => {
                   setLogoutmessage(false);
                 }, 3000);

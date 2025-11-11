@@ -7,7 +7,7 @@ import { LuClockAlert } from "react-icons/lu";
 import { MdLogout } from "react-icons/md";
 import { fetchHeader } from "@/app/Redux/Header/ActionHeader";
 
-const Header1 = () => {
+const HeaderClient = () => {
   const { loading, error, header } = useSelector((state) => state.header);
   const dispatch = useDispatch();
   const [showlogin, setShowlogin] = useState(false);
@@ -410,4 +410,4 @@ const Header1 = () => {
   );
 };
 
-export default Header1;
+export default HeaderClient;

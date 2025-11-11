@@ -6,6 +6,7 @@ import ReducerTaghvim2 from "../Redux/Taghvim2/ReducerTaghvim2";
 import ReducerTotalproduct from "../Redux/TotalProduct/ReducerTotalProduct";
 import ReducerFooterh from "../Redux/FooterH/ReducerFooterh";
 import ReducerCars from "../Redux/Cars/ReducerCars";
+import ReducerClient from "../Redux/Client/ReducerClient";
 
 export const store = configureStore({
   reducer: {
@@ -15,7 +16,8 @@ export const store = configureStore({
     taghvim2:ReducerTaghvim2,
     totalproduct:ReducerTotalproduct,
     footerh:ReducerFooterh,
-    cars:ReducerCars
+    cars:ReducerCars,
+    client:ReducerClient
   },
  
 });
