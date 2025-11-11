@@ -1,28 +1,20 @@
-import { promises as fs } from "fs";
-import path from "path";
+import dbData from "@/public/db.json";
 
 export async function GET() {
   try {
-    // مسیر فایل db.json
-    const dbPath = path.join(process.cwd(), "public", "db.json");
-
-    // خواندن فایل
-    const data = await fs.readFile(dbPath, "utf8");
-    const jsonData = JSON.parse(data);
-
-    return new Response(JSON.stringify(jsonData), {
+    return new Response(JSON.stringify(dbData), {
       status: 200,
       headers: {
         "Content-Type": "application/json",
+        "Cache-Control": "public, s-maxage=3600",
       },
     });
   } catch (err) {
     console.error("API Error:", err);
     return new Response(
       JSON.stringify({
-        error: "Cannot read data",
+        error: "Failed to fetch data",
         message: err.message,
-        path: process.cwd(),
       }),
       {
         status: 500,
