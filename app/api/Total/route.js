@@ -1,8 +1,13 @@
-import dbData from "@/public/db.json";
+import path from "path";
+import { promises as fs } from "fs";
 
 export async function GET() {
   try {
-    return new Response(JSON.stringify(dbData), {
+    const dbPath = path.join(process.cwd(), "public", "db.json");
+    const raw = await fs.readFile(dbPath, "utf8");
+    const jsonData = JSON.parse(raw);
+
+    return new Response(JSON.stringify(jsonData), {
       status: 200,
       headers: {
         "Content-Type": "application/json",
@@ -13,7 +18,7 @@ export async function GET() {
     console.error("API Error:", err);
     return new Response(
       JSON.stringify({
-        error: "Failed to fetch data",
+        error: "Failed to read db.json",
         message: err.message,
       }),
       {
