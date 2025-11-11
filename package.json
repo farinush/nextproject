@@ -7,7 +7,6 @@
     "build": "next build",
     "start": "next start",
     "lint": "eslint",
-    
     "server": "npx json-server db.json --port 3004"
   },
   "dependencies": {
